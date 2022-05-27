@@ -24,7 +24,11 @@
   position: absolute;
   bottom: 10px;
   right: 20px;
-  background-color: palevioletred;
+  background-color: #b3345c;
+  border: 1px solid #b3345c;
+  color: #fff;
+  border-radius: 10%;
+  padding: 0 10px;
 }
 .confirm{
   position: fixed;
@@ -42,14 +46,14 @@
   display: flex; 
 }
 .cancel-btn{
-  color: palevioletred;
-  border: 1px solid palevioletred;
+  color: #b3345c;
+  border: 1px solid #b3345c;
   border-radius: 10%;
 }
 .confirm-btn{
   color: white;
-  background-color: palevioletred;
-  border: 1px solid palevioletred;
+  background-color: #b3345c;
+  border: 1px solid #b3345c;
   border-radius: 10%;
 }
 .confirm-child{
